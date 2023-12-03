@@ -156,7 +156,7 @@ if __name__ == "__main__":
 
     ############# PART 2 - COMPANY SELECTION #####################
     st.subheader('Part 2 - Choose a company')
-    option_company = st.selectbox("Choose a company from the following list :",df_sp.name.unique())
+    option_company = st.selectbox("Choose a company from the following list :",df_sp.name.unique(), index=7)
 
 
     ############# PART 3 - STOCK PREDICTION #####################

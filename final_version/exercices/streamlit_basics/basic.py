@@ -7,7 +7,7 @@ def connect_data_csv():
     st.header("Streamlit connect data tutorial")
 
     ### PUT YOUR OWN PATH BELOW ####
-    MY_PATH = '/Users/pierre-louis.danieau/Desktop/udemy_streamlit/initial_version/project/s&p500.csv'
+    MY_PATH = 'initial_version\project\s&p500.csv'
     ################################
 
     data = pd.read_csv(MY_PATH)
